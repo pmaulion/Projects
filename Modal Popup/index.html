@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Modal Popup</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="modal-container">
+					<img class="top-right" id="close" src="images/delete.png">
+					<div class="header-section">
+						<p>Help Logging into Preqin's Data Contribution System</p>
+					</div>
+				<div class="modal-body-text">
+					<p> We are upgrading the way in which you contribute data to Preqin to make the process more secured and efficient.</p>
+				</div>
+				<div class="button-section">
+					<div class="button" id="expand-1"><div class="pointer-1"></div><p class="button-text">I am a Preqin.com User</p></div>
+						<div class="expand-section hidden" id="expanded-1">
+							<p>All active users of any Preqin's online products can access Preqin's Data Contribution System using their current Preqin credentials.</p>
+							<p>Use your www.preqin.com username and password. If you cannot remember your credentials - use the <strong>'Forgotten Password'</strong> tool.
+						</div>
+					<div class="button" id="expand-2"><div class="pointer-2"></div><p class="button-text">I have been given an 'access number'</p></div>
+						<div class="expand-section hidden" id="expanded-2">
+							<p>Log in with the provided <strong>'PIN Number</strong> and your email address</p>
+							<p>The first time you log in, you will receive a new and secured password via email. Going forwards, you will then need to use these new credentials to log in.
+						</div>
+					<div class="button" id="expand-3"><div class="pointer-3"></div><p class="button-text">I have to activate my Preqin Account</p></div>
+						<div class="expand-section hidden" id="expanded-3">
+							<p class="no-margin">Enter your email address on this page:</p>
+							<a href="#">https://wwww.preqin.com/password.aspx?displaymode=1</a>
+							<br>
+							<p>You will then receive a new and secured password via email. Use tehse credentials to login to Preqin's Data Contribution System.
+						</div>
+				</div>
+			</div>
+		</div>
+
+	<script src="javascript/jquery-3.2.0.min.js" type="text/javascript"></script>
+	<script src="javascript/index.js" type="text/javascript"></script>
+	</body>
+</html>
