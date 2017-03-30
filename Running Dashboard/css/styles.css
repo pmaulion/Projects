@@ -1,0 +1,24 @@
+* {
+	
+}
+
+.nav-height {
+	height: 100px;
+	border-radius: 0px;
+}
+
+.nav-height a{
+	height: 100px;
+	padding-top: 35px;
+	font-size: 16px;
+}
+
+.navbar-toggle {
+	margin-top: 25px;
+}
+
+li{
+	padding-top: 20px;
+}
+
+
