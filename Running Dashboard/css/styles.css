@@ -9,7 +9,6 @@ body {
 	font-size: 62.5%;
 }
 
-
 /*Header Section*/
 header {
 	height: 100px;
@@ -114,10 +113,14 @@ h1 {
 
 .map-container {
 	margin: 20px auto;
-	border: 1px solid #DDDDDD;
+	border: 1px solid black;
 	width: 95%;
 	height: 700px;
 	margin-bottom: 30px;
+}
+
+#map {
+	height: 700px;
 }
 
 
