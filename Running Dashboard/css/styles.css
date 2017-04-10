@@ -103,14 +103,6 @@ h1 {
 
 
 /*Map Section*/
-.center {
-	margin: 10px auto;
-	width: 95%;
-	text-align: center;
-	font-size: 3.5em;
-	border-bottom: 4px solid #000;
-	padding-bottom: 5px;
-}
 
 .map-container {
 	margin: 20px auto;
@@ -157,3 +149,46 @@ footer .wrapper {
 	height: 30px;
 	margin: 0px 10px;
 }
+
+/*Aesthetics*/
+
+.center {
+	margin: 10px auto;
+	width: 95%;
+	text-align: center;
+	font-size: 3.5em;
+	border-bottom: 4px solid #000;
+	padding-bottom: 5px;
+}
+
+.left {
+	margin: 10px auto;
+	width: 95%;
+	text-align: left;
+	font-size: 3.5em;
+	border-bottom: 4px solid #000;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+/*My Races.html Form/Table Aesthetics*/
+
+select {
+	display: block;
+	font-size: 24px;
+	border: 3px solid black;
+	padding: 10px;
+	width: 95%;
+	margin: 20px auto;
+}
+
+table {
+	display: block;
+	margin: 20px auto;
+	font-size: 16px;
+	width: 95%;
+	border: 3px solid black;
+
+}
+
+
