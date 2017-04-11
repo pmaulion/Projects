@@ -175,7 +175,7 @@ footer .wrapper {
 
 select {
 	display: block;
-	font-size: 24px;
+	font-size: 2.4em;
 	border: 3px solid black;
 	padding: 10px;
 	width: 95%;
@@ -184,7 +184,6 @@ select {
 
 table {
 	margin: 20px auto;
-	font-size: 16px;
 	width: 95%;
 	border: 3px solid black;
 	border-spacing: 0px;
@@ -194,7 +193,22 @@ table {
 .table-header {
 	background: black;
 	color: white;
-	font-size: 20px;
+	font-size: 2.4em;
 	height: 60px;
+}
+
+.race-header {
+	background: #DDD;
+	text-align: left;
+}
+
+.race-header-left {
+	font-size: 2em;
+	padding: 5px 10px;
+}
+
+.race-content {
+	font-size: 1.75em;
+	height: 50px;
 }
 
